@@ -76,8 +76,8 @@ Após o processamento, o app gera uma planilha com a seguinte estrutura:
 ### **1. Clone o repositório**
 
 ```bash
-git clone https://github.com/SEU-USUARIO/SEU-REPO.git
-cd SEU-REPO
+git clone https://github.com/danilo-alvess/ferramenta-de-captacao.git
+cd ferramenta-de-captacao
 ```
 
 ### **2. Instale as dependências**
@@ -94,25 +94,13 @@ streamlit run app.py
 
 ---
 
-## ⚙️ **Arquivo `requirements.txt` sugerido**
-
-```txt
-streamlit
-pandas
-openpyxl
-xlsxwriter
-hydralit_components
-```
-
----
-
 ## 💡 **Melhorias Futuras**
 
 * Dashboard com KPIs de captação (MQL, SQL, taxa de conversão etc.).
-* Login por e-mail ADM.
+* Login por e-mail empresarial.
 * Histórico das formatações por usuário.
 * Integração com API HubSpot.
-* Automação do download direto da Casa dos Dados.
+* Automação do download direto banco da Casa dos Dados.
 
 ---
 
